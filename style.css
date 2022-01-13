@@ -1,0 +1,84 @@
+/* Use this when you are ready to make a media query style
+
+@media screen and (max-width: 768px) {
+  
+
+}  */
+*{margin: 0px;}
+
+h1{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.parent{
+    background-color:white;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.box01{
+    
+    height: 700px;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+
+}
+.box02{
+    
+    height: 700px;
+    overflow: hidden;
+    background-color: rgb(100, 237, 111);
+    align-items: center;
+    justify-content: center;
+}
+
+.box03{
+    background-color: white;
+    margin: 15px;
+    word-wrap: break-word;
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+}
+.picturebox{
+    background-color: white;
+    margin:20px;
+}
+.p01{
+    color:white;
+    font-size: 25px;
+}
+.p02{
+    color:white;
+    font-size:60px;
+}
+.p03{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.title{
+    font-size: 25pt;
+    margin-bottom: 6pt;
+}
+.line01{
+    font-size: 15pt;
+    color:darkorange ;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media screen and (max-width: 768px) {
+    .parent{
+        background-color:white;
+        height: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
